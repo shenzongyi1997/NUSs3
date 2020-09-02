@@ -1,0 +1,9 @@
+domain when defining predicate:
+
+pred ?args-
+比如 Plane_at(P,A) 定义为 plane_at ?P - plane ?A -airport
+解析出来就是，P要是plane,A要是airport，然后这个predicate才有意义
+
+这里面所有变量都用?来表示, 以变量名 - 变量类型 来表示   比如 ?P - plane   代表在这个定义中， P这个变量是plane类型的
+LOAD(C,P,A):
+Precondition:
